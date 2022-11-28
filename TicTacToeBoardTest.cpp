@@ -29,6 +29,6 @@ TEST(TicTacToeBoardTest, place_piece)
 TEST(TicTacToeBoardTest, place_piece_on_piece)
 {
 	TicTacToeBoard myboard;
-	//Piece flako = myboard.placePiece(1, 1);
-	//ASSERT_EQ(flako, X);
+	Piece flako = myboard.placePiece(1, 1);
+	ASSERT_EQ(flako, X);
 }
